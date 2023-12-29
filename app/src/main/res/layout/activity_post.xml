@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".PostActivity"
+    android:background="#303030">
+
+    <!-- Input Field -->
+    <EditText
+        android:id="@+id/editTextPost"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#424242"
+        android:hint="What's on your mind?"
+        android:inputType="textMultiLine"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:gravity="top"
+        android:textColorHint="#BDBDBD"
+        android:textColor="#FFFFFF" />
+
+    <!-- Image View for Uploading Pictures -->
+    <ImageView
+        android:id="@+id/imageViewUpload"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/editTextPost"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@android:drawable/ic_menu_camera"
+        android:clickable="true"
+        android:contentDescription="Upload Image"
+        app:tint="#FFD600" />
+
+    <!-- Post Button -->
+    <Button
+        android:id="@+id/buttonPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewUpload"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Post"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF" />
+
+    <!-- Text View -->
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonPost"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Share your thoughts!"
+        android:textColor="#BDBDBD"
+        android:textStyle="italic"
+        android:textSize="18sp" />
+
+</RelativeLayout>

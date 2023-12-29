@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "508292666593",
+    "project_id": "readingloops-a1c1e",
+    "storage_bucket": "readingloops-a1c1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508292666593:android:ddf4a5b790aa2d7e6bd3a0",
+        "android_client_info": {
+          "package_name": "com.example.readingloops"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmXdlfFk6D5ZE5UUCE2iBM6PC5VkzrtrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
